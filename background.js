@@ -181,7 +181,7 @@ async function getMeaningFromGemini(selectedText) {
     
     if (!apiKey) {
       // Fallback to hardcoded key (not recommended for production)
-      apiKey = "AIzaSyAiCuAkSCsMQXWg1kZFhFnoSjaOfI5EqTk";
+      apiKey = "YOUR_API_KEY_HERE";
       console.warn("Using hardcoded API key. Consider storing it securely.");
     }
   } catch (error) {
